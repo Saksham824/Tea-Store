@@ -13,7 +13,7 @@ export default function LearnPage() {
     },
     {
       title: 'Tailwind CSS',
-      desc: 'Understand our design system powered by Tailwind’s utility-first classes.',
+      desc: 'Understand our design system powered by Tailwindcss utility-first classes.',
       icon: '🎨',
     },
     {

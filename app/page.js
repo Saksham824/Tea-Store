@@ -72,8 +72,8 @@ export default function Home() {
       <section className="w-full mb-10 rounded-xl mt-20 px-6 md:px-20 py-12 bg-gradient-to-b from-blue-950 via-black to-gray-900 text-white text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose <span className="text-yellow-300">Get Me A Chai?</span></h2>
         <p className="text-gray-300 max-w-3xl mx-auto text-lg mb-10 leading-relaxed">
-          At <span className="text-pink-400 font-semibold">Get Me A Chai</span>, we believe chai is more than just a drink — it’s a feeling. Whether you're pulling an all-nighter, chilling with friends, or taking a much-needed break, our carefully crafted blends are designed to soothe, energize, and satisfy.
-          <br className="hidden md:block" />We deliver premium-quality, piping hot chai made with love, straight to your doorstep — faster than you can say “One cutting, please!”
+          At <span className="text-pink-400 font-semibold">Get Me A Chai</span>, we believe chai is more than just a drink — it&apos;s a feeling. Whether you're pulling an all-nighter, chilling with friends, or taking a much-needed break, our carefully crafted blends are designed to soothe, energize, and satisfy.
+          <br className="hidden md:block" />We deliver premium-quality, piping hot chai made with love, straight to your doorstep — faster than you can say &quot;One cutting, please!&quot; 
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-10">
@@ -125,7 +125,7 @@ export default function Home() {
           Why <span className="text-yellow-300">Choose Us?</span>
         </h2>
         <p className="text-gray-300 max-w-3xl mx-auto text-lg mb-10 leading-relaxed">
-          We’re not just delivering tea — we’re delivering comfort, connection, and care in every cup. Here's why chai lovers trust us.
+          We&apos;re not just delivering tea — we&apos;re delivering comfort, connection, and care in every cup. Here's why chai lovers trust us.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-10">
@@ -155,7 +155,7 @@ export default function Home() {
           Ready to <span className="text-pink-400">Sip Some Chai?</span>
         </h2>
         <p className="text-gray-300 max-w-2xl mx-auto mb-8 text-lg">
-          Whether you're working late, chilling with friends, or just need a break — your perfect cup is just a click away.
+          Whether you&apos;re working late, chilling with friends, or just need a break — your perfect cup is just a click away.
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">

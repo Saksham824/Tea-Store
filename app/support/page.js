@@ -69,15 +69,15 @@ export default function SupportPage() {
         <div className="space-y-6 text-gray-300">
           <div>
             <h3 className="font-bold text-white">❓ How fast is delivery?</h3>
-            <p>Most chai deliveries are completed within 20–30 minutes depending on your location.</p>
+            <p>Most chai deliveries are completed within 20&ndash;30 minutes depending on your location.</p>
           </div>
           <div>
             <h3 className="font-bold text-white">❓ Do you offer refunds?</h3>
-            <p>Yes! If you’re not satisfied, we’ll refund your order. No questions asked.</p>
+            <p>Yes! If you&apos;re not satisfied, we&apos;ll refund your order. No questions asked.</p>
           </div>
           <div>
             <h3 className="font-bold text-white">❓ Where do you operate?</h3>
-            <p>Currently available in major Indian cities — expanding soon!</p>
+            <p>Currently available in major Indian cities &mdash; expanding soon!</p>
           </div>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default function SupportPage() {
         >
           Still need help?
         </motion.h2>
-        <p className="text-gray-300 mb-6">Fill out our support form and we’ll get back ASAP.</p>
+        <p className="text-gray-300 mb-6">Fill out our support form and we&apos;ll get back ASAP.</p>
         <Link
           href="mailto:support@getmeachai.com"
           className="inline-block bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-3 px-6 rounded-2xl transition duration-300 shadow-lg"

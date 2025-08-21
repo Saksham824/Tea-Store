@@ -14,7 +14,6 @@ export default function ContactPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add form submit logic here (e.g. send to backend or email service)
     console.log(form);
     setSubmitted(true);
   };
@@ -37,7 +36,7 @@ export default function ContactPage() {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-gray-300 max-w-2xl mx-auto text-lg"
         >
-          We’d love to hear from you — whether it's feedback, questions, partnership ideas, or just a friendly hello. ☕
+          We&apos;d love to hear from you — whether it&apos;s feedback, questions, partnership ideas, or just a friendly hello. ☕
         </motion.p>
       </div>
 
@@ -51,15 +50,15 @@ export default function ContactPage() {
         >
           <div className="flex items-center gap-4">
             <FaEnvelope className="text-yellow-400 text-xl" />
-            <span>contact@getmeachai.com</span>
+            <span>sakshams824@gmail.com</span>
           </div>
           <div className="flex items-center gap-4">
             <FaPhone className="text-yellow-400 text-xl" />
-            <span>+91 9876543210</span>
+            <span>+91 6005310237</span>
           </div>
           <div className="flex items-center gap-4">
             <FaMapMarkerAlt className="text-yellow-400 text-xl" />
-            <span>Delhi, India</span>
+            <span>Delhi, Jammu</span>
           </div>
         </motion.div>
 

@@ -33,7 +33,7 @@ export default function ReadMorePage() {
                     transition={{ delay: 0.2, duration: 0.6 }}
                     className="text-gray-300 max-w-2xl mx-auto text-lg"
                 >
-                    Dive deeper into our story, mission, and why we're obsessed with helping creators grow — one chai at a time.
+                    Dive deeper into our story, mission, and why we&apos;re obsessed with helping creators grow — one chai at a time.
                 </motion.p>
             </div>
 
@@ -41,8 +41,8 @@ export default function ReadMorePage() {
             <section className="mt-16 max-w-3xl mx-auto space-y-8 text-gray-200 leading-relaxed">
                 {[
                     {
-                        title: 'Why “Chai”?',
-                        content: `Chai isn't just a beverage — it's a symbol of warmth, connection, and appreciation. It’s what brings people together.`,
+                        title: 'Why Chai?',
+                        content: `Chai isn't just a beverage — its a symbol of warmth, connection, and appreciation. Its what brings people together.`,
                     },
                     {
                         title: 'What We Do',
@@ -50,7 +50,7 @@ export default function ReadMorePage() {
                     },
                     {
                         title: 'Our Vision',
-                        content: `We aim to become the go-to support link for creators across the world. A space where every “chai” counts.`,
+                        content: `We aim to become the go-to support link for creators across the world. A space where every chai counts.`,
                     },
                     {
                         title: 'How You Can Help',
