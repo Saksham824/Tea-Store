@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Script from 'next/script';
 import { fetchpayments, fetchuser, initiate } from '@/actions/useractions';
 import { useSession } from 'next-auth/react';
+import Image from 'next/image';
 
 const BuyPage = () => {
     const { data: session } = useSession();
@@ -129,10 +130,12 @@ const BuyPage = () => {
                     className="flex flex-col items-center mb-10"
                 >
                     <div className="relative">
-                        <img
+                        <Image
+                        width={96}
+                        height={96}
                             src={user.profileImg}
                             alt="User Avatar"
-                            className="w-24 h-24 rounded-full border-4 border-orange-400 shadow-md hover:scale-105 transition-transform"
+                            className=" rounded-full border-4 border-orange-400 shadow-md hover:scale-105 transition-transform"
                         />
                         {/* <span className="absolute -bottom-2 -right-2 bg-green-500 rounded-full w-4 h-4 border-2 border-black"></span> */}
                     </div>

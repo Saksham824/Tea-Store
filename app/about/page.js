@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaDiscord } from 'react-icons/fa';
+import Image from 'next/image';
 
 const team = [
   {
@@ -106,10 +107,12 @@ export default function AboutPage() {
               transition={{ duration: 0.4, delay: i * 0.2 }}
               className="bg-gray-800/60 rounded-2xl shadow-xl p-6 text-center"
             >
-              <img
+              <Image
+              width={96}
+              height={96}
                 src={member.img}
                 alt={member.name}
-                className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-yellow-400"
+                className=" rounded-full mx-auto mb-4 border-4 border-yellow-400"
               />
               <h4 className="text-lg font-bold text-white">{member.name}</h4>
               <p className="text-gray-400">{member.role}</p>

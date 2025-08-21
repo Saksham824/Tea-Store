@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
+import Image from "next/image";
 
 const Navbar = () => {
     const { data: session } = useSession();
@@ -52,10 +53,12 @@ const Navbar = () => {
                                 onClick={() => setShowDropdown(!showDropdown)}
                                 className="flex items-center gap-2 border px-4 py-2 rounded-2xl bg-gray-800 hover:bg-gray-700 transition duration-200"
                             >
-                                <img
+                                <Image
+                                width={32}
+                                height={32}
                                     src={session.user.image || "/default-avatar.png"}
                                     alt="Profile"
-                                    className="w-8 h-8 rounded-full object-cover"
+                                    className="rounded-full object-cover"
                                 />
                                 <svg className="w-2.5 h-2.5" viewBox="0 0 10 6" fill="none">
                                     <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />

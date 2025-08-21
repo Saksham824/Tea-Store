@@ -1,6 +1,5 @@
 'use client'
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { ChevronsDown } from "lucide-react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -34,8 +33,10 @@ export default function Home() {
               <span className="mt-5 text-gray-200 text-2xl font-medium hover:text-yellow-300 transition">
                 Buy your favourite chai
               </span>
-              <img
-                className="w-20 h-20 hover:scale-110 transition duration-300"
+              <Image
+              width={50}
+              height={50}
+                className=" hover:scale-110 transition duration-300"
                 src="/tea.gif"
                 alt="Chai GIF"
               />
