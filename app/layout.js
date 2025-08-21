@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SessionWrapper from "@/components/SessionWrapper";
-import { AnimatePresence } from "framer-motion";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,10 +28,10 @@ export default function RootLayout({ children }) {
           <div className="relative min-h-[82vh] flex flex-col justify-between w-full overflow-hidden">
             <div className="absolute top-0 z-[-2] h-full w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
             <main className="relative z-10 px-4 sm:px-8">
-              <AnimatePresence mode="wait">
+              
 
               {children}
-              </AnimatePresence>
+              
               </main>
           </div>
           <Footer />
